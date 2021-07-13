@@ -55,6 +55,10 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+    border: 1px solid red;
+
     
 }
 .container .row .col-2{
@@ -70,7 +74,7 @@ header{
 }
 .btn button{
     border: none;
-    background-color: hotpink;
+    background-color: tomato;
     padding: 15px 30px;
     border-radius: 50px;
     margin-bottom: 50px;
@@ -79,14 +83,11 @@ header{
     font-size: 28px;
 }
 .btn button:hover{
-    background-color: lightgreen;
-    color: hotpink;
+    background-color: #294652;
+    color: tomato;
 }
-.container .row .col-3{
-    flex-basis: 30%;
-    justify-content: center;
-    
-}
+ 
+
 .container .row .col-3 img{
     width: 350px;
     padding: 50px 30px;
@@ -129,3 +130,41 @@ header{
     transform: translateY(-5px);
     cursor: pointer;
 }
+
+/* Review Section */
+
+.review-section{
+    
+    
+    margin: 0 25px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.review-section:hover{
+    transform: translateY(-10px);
+}
+
+.left-qouation{
+    color: tomato;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+.review-section .review{
+    color: #555;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+.review-section .rating{
+    color: tomato;
+    margin: 20px 0;
+}
+.review-section .reviewer-profile img{
+    
+    border-radius: 50%;
+    
+}
+
