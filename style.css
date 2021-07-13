@@ -169,3 +169,62 @@ header{
     
 }
 
+/* sponsor--------------------------- */
+
+.sponsor .container .row .col-5{
+    margin: 100px 0;
+    cursor: pointer;
+}
+
+.sponsor .container .row .col-5 img{
+    width: 200px;
+    padding: 0 25px;
+}
+
+/* -----------Footer---------- */
+footer{
+    background-color: black;
+    
+}
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+}
+.rows{
+    
+    display: flex;
+}
+.footer-container .rows .col-6 img{
+    width: 140px;
+    padding: 10px 0;
+}
+.footer-container .rows .col-6{
+    padding: 50px 15px;
+    flex-basis: 25%;
+    text-align: center;
+}
+.footer-container .rows .col-6 h2{
+    color: white;
+    padding: 10px 0;
+}
+.footer-container .rows .col-6 p{
+    color: rgba(255, 255, 255, 0.795);
+    
+    font-weight: 200;
+    font-size: 14px;
+}
+.footer-container .rows .col-6 .linkss{
+    margin-top: 10px;
+}
+.footer-container .rows .col-6 p a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+    
+}
+.footer-container .rows .col-6 p a:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer-container .rows .col-6 .linkss p{
+    padding-top: 8px;
+}
