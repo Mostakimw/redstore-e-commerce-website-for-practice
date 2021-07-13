@@ -47,6 +47,7 @@ header{
     margin-right: 40px;
     cursor: pointer;
 }
+/* ---------------------------- header section ----------------------------- */
 .container{
     margin: 20px 0;
     box-sizing: border-box;
@@ -56,19 +57,22 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
-    
-
-    
+    justify-content: space-between;  
+    /* border: 1px solid red; */
 }
 .container .row .col-2{
-    margin: 60px 20px;
+    margin: 100px 0;
     flex-basis: 50%;
     justify-content: center;
+    /* border: 1px solid red; */
+}
+.container .row .col-2 h1{
+    /* padding: 50px 0; */
+    font-size: 40px;
+    font-weight: 800;
 }
 .container .row .col-2 img{
-    margin-left: 300px;
+    padding-left: 100px;
 }
 .btn{
     text-align: center;
@@ -94,7 +98,8 @@ header{
     padding: 50px 30px;
 }
 
-/* Featured Products */
+/* ------------------Featured Products------------------------ */
+
 .featured-products .topic-text{
     text-align: center;
     size: 48px;
@@ -132,7 +137,7 @@ header{
     cursor: pointer;
 }
 
-/* Review Section */
+/* ------------------------------Review Section -------------------------------*/
 
 .review-section{
     
@@ -169,7 +174,7 @@ header{
     
 }
 
-/* sponsor--------------------------- */
+/* --------------------------------------sponsor--------------------------- */
 
 .sponsor .container .row .col-5{
     margin: 100px 0;
