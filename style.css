@@ -36,10 +36,11 @@ header{
     color: #5f6368;
     font-size: 18px;
     padding: 20px;
-    
+    transition: transform 10s;
 }
 .header nav ul li a:hover{
-    background-color: rgb(221, 216, 216);
+    background-color: rgba(221, 216, 216, 0.5);
+    transform: translate(5px);
 }
 .cart{
     width: 30px;
