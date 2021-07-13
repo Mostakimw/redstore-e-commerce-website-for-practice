@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: radial-gradient(#ffffff, #ffd6d6);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+.header nav ul{
+    list-style: none;
+    margin-right: 20px;
+}
+.header .navlinks{
+    display: flex;
+    align-items: center;
+}
+.header nav ul li{
+    display: inline-block;
+    
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.header nav ul li a:hover{
+    background-color: rgb(221, 216, 216);
+}
+.cart{
+    width: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.container{
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+.row{
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.container .row .col-2{
+    margin: 60px 20px;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.container .row .col-2 img{
+    margin-left: 300px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    border: none;
+    background-color: hotpink;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 28px;
+}
+.btn button:hover{
+    background-color: lightgreen;
+    color: hotpink;
+}
+.container .row .col-3{
+    flex-basis: 30%;
+    justify-content: center;
+    
+}
+.container .row .col-3 img{
+    width: 350px;
+    padding: 50px 30px;
+}
+
+/* Featured Products */
+.featured-products .topic-text{
+    text-align: center;
+    size: 48px;
+    font-weight: 800;
+    color: #555;
+    margin: 50px 0;
+}
+.container .row .col-4{
+    flex-basis: 25%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+.container .row .col-4 img{
+    padding-right: 5px;
+    width: 250px;
+    height: 300px;
+}
+.container .row .col-4 .text{
+    font-size: 15px;
+    color: #555;
+    padding: 5px 0;
+}
+.container .row .col-4 .fas{
+    padding: 3px 0;
+    color: tomato;
+}
+.container .row .col-4 p{
+    padding: 3px;
+    color: #555;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
