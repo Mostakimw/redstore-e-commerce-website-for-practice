@@ -184,6 +184,10 @@ header{
 .sponsor .container .row .col-5 img{
     width: 200px;
     padding: 0 25px;
+    filter: grayscale(100%);
+}
+.sponsor .container .row .col-5 img:hover{
+    filter: grayscale(0);
 }
 
 /* -----------Footer---------- */
@@ -232,4 +236,7 @@ footer{
 }
 .footer-container .rows .col-6 .linkss p{
     padding-top: 8px;
+}
+.app{
+    cursor: pointer;
 }
